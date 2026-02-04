@@ -18,9 +18,3 @@ class CustomeException(Exception):
     def __str__(self):
         return self.error_message
     
-
-try:
-    a = 1/0
-except Exception as e:
-    logging.info(e)
-    raise CustomeException(e,sys)
