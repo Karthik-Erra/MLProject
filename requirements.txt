@@ -3,4 +3,8 @@ python-dotenv
 setuptools
 pandas
 numpy
+dill
+xgboost
+catboost
+Flask
 #-e .
