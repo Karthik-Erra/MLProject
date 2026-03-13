@@ -113,7 +113,7 @@ class DataTransformation:
                 train_arr,
                 test_arr,
                 self.data_transformation_config.preprocessor_obj_file_path,
-            )
+            ) ## returing train_dataset_array and test_dataset_array and also preprocessor object file path
 
         except Exception as e:
             raise CustomeException(e,sys)
